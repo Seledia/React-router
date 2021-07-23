@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Contact = () => {
+const Contact = (props) => {
 	return (
 		<div className ='ui raise very padded text container segment'
 		style = {{marginTop:'80px'}}>
