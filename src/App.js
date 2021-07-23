@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
+import Card from './components/Card';
 
 
 
@@ -15,6 +16,7 @@ const App = () => {
 				<Route exact path = '/' component = { Home } />
 				<Route path = '/About' component = { About } />
 				<Route path = '/Contact' component = { Contact } />
+				<Route path = '/card/:user' component = { Card } /> 
 			</div>
 		</BrowserRouter>
 	);
